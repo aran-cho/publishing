@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+        h2{
+            color: brown;
+            background-color:aquamarine ;
+        }
+        * /* 모든 태그에 적용 */
+        {
+            font-family: 'Nanum Pen Script', cursive;
+            color: orange;
+        }
+        /* 같은 파일에 스타일을 주었을때, 위에서 아래로 해석
+        콕 집어서 변경한것이(h2같은경우) 후자로 적용 */
+        h1 {
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            border-left-width: 2px;
+            border-top-width: 2px;
+            border-right-width: 2px;
+            border-bottom-width: 2px;
+            border-style: double;
+            border-color: blue;
+            width: 200px;
+            text-align: center; 
+            /* 글자를 가운데, 오른쪽 , 왼쪽으로 이동 가능 */
+            font-weight: 700px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- block type -->
+    <h1>H1 text size</h1> <h2>H2 text size</h2>
+    <hr/>
+    <h3>H3 text size</h3> <h4>H4 text size</h4>
+    <h5>H5 text size</h5> <h6>start H6 text size <h3> inline h3 </h3> end H6</h6> 
+    <hr/> 
+    <!-- inline type -->
+    <button>First Btn</button> <button>Second Btn</button>
+    <!-- link index.html -->
+    <div>
+        <a href="../index.html">go index</a>
+    </div>
+</body>
+</html>

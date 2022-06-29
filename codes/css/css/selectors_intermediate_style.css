@@ -1,0 +1,30 @@
+*{
+    line-height: 10px;
+}
+.c1 {
+    font-size: 30px;
+    color: green;
+}
+.c3 {
+    background-color: bisque;
+    margin: 10px;
+}
+/* 클래스 각자를 복합으로 이어서 사용 가능 */
+.c1.c3
+/* 별개의 클래스라고 인식하지 않게 공백없이  */
+{
+    border: 2px solid black;
+}
+h3{
+    background-color: white;
+}
+/* .parents > div  */
+.parents > .child2 
+/* 스페이스(공백)는 내안에 들어와있는 모든 자손들에게 적용 그중에서 div만 적용 */
+/* 꺽새(>)는 자기 자녀, 혹은 동료 개념의 태그들에 적용 */
+{ 
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+ }

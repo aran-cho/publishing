@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="https://placeimg.com/320/280/animals" width="120" height="40" alt="dog image">
+        <!-- 둘 다(width,height) 주면 이미지가 쪼그라들수있음 -->
+        <img src="https://placeimg.com/320/280/animals" height="80" alt="">
+        <!-- 어느한쪽만(width,height) 설정해도 나머지는 자동으로 줄어들음 -->
+    </div>
+    <div>
+        <img src="https://placeimg.com/60/50/tech" width="320" alt="">
+        <!-- 이미지가 깨짐->해상도의 문제(사용자가 보기 불편) -->
+        <img src="https://placeimg.com/60/50/tech" alt="">
+        <!-- inline태그 -->
+    </div>
+    <h3>load image from web</h3>
+    <div>
+        <a href="https://www.bbc.com/future/article/20220616-the-nation-where-your-faceprint-is-already-being-tracked">
+            <img src="https://placeimg.com/320/280/tech" alt="">
+        </a>
+    </div>
+    <h3>load image from local</h3>
+    <div>
+        <a href="https://www.bbc.com/news">
+            <img src="../images/bbc.png" alt="">
+        </a>
+    </div>
+</body>
+</html>

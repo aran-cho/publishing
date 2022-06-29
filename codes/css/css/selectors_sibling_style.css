@@ -1,0 +1,16 @@
+h3{
+    background-color: white;
+}
+/* .parents > div  */
+/* > : 하위로 내려가는 의미 */
+/* .parents > h3 ~ h3 */
+/* ~: h3 중에서 하나(h3)를 선택 */
+/* .parents > h3 + div */
+/* +: h3 바로 옆에 있는 형제를 선택 */
+.parents > .child2 > h3 + div
+{ 
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+ }

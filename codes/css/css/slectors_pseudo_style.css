@@ -1,0 +1,36 @@
+/* html이 아니라서 태그는 의미가 없음 */
+h3{
+    background-color: white;
+}
+h3:hover
+/* 가상selcetor : 마우스 갖다대면 색이 변함 */
+{
+    background-color: blueviolet;
+ }    
+.parents > .child2 > h3 + div
+{ 
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+ }
+ button {
+    font-size: 40px;
+    border: 1px solid red;
+    border-radius: 10px 20px;
+    /* border-radius: 보통은 퍼센트로 사용 */
+ }
+ span {
+    color: tomato;
+    margin: 5px;
+    background-color: antiquewhite;
+ }
+ .span-second:hover {
+    display: none;
+ }
+/* 사라짐 */
+.span-third:hover {
+    visibility: hidden;
+ }
+ /* 가려짐(자리를 차지하고있는상태) */
+ /* hover는 글자안에서 동작 */

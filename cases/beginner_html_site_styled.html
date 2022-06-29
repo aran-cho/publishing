@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <!-- @import와 같은 방법-> 폰트 변경 -->
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        /* 공통으로 적용할거 먼저*/
+        /* 웹같은경우 보안코드 */
+        html {
+            background-color: #00539F;
+            /* 샘플 해당 색 클릭해서 복사(혼자 해봄) */
+        }
+        body {
+            background-color: orange;
+            margin: 0px 30px 30px 30px;
+            /* margin: 20px 30px; */
+            /* 두개를 주면 위아래/오왼쪽 쌍으로 적용 */
+            /* margin: 20px 30px 40px 50px; */
+            /* 시계방향으로 top, right, bottom, left */
+            border: 5px black solid;
+            /* border의 굵기, 색, 종류 쌍으로 적용 */
+            padding: 0px 10px;
+            /* common code */
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #00539F; 
+            text-shadow: 5px 5px 2px black;
+            /* 5px(앞쪽)가 x축 5px(뒤쪽)가 y축()--> y축은 증가할수록 아래로 내려감) 2px는 블러드 */
+        }
+        img {
+            display: block;
+            /* 이미지 인라인 형태인데 블록으로 성격을 변경가능 */
+            margin: 0 auto;
+            /* auto:양쪽에 자동으로 변경*/
+        }
+        p {
+            line-height: 30px;
+        }
+        li {
+            line-height: 30px;
+        }
+          /* (line-height)텍스트의 라인만 변경 : 라인과 라인의 간격 조정 */
+    </style>
+  </head>
+  <body>
+    <h1>Mozilla is cool</h1>
+    <img src="https://mdn.github.io/beginner-html-site-styled/images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+    <p>At Mozilla, we’re a global community of</p>
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+
+    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+  </body>
+</html>
